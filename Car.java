@@ -6,6 +6,27 @@ public class Car{
     protected final String color;
     protected final Integer capacity;
 
+    public String getBrand(){
+        return brand;
+    }
+
+    public String getEngineType(){
+        return engineType;
+    }
+
+    public String getTransmission(){
+        return transmission;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public Integer getCapacity(){
+        return capacity;
+    }
+
+
     private Car(CarBuilder builder) {
         this.brand = builder.brand;
         this.engineType = builder.engineType;
